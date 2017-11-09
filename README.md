@@ -56,7 +56,7 @@ No tests at this time.
 
 ### CIDR
 
-** Public API**
+**Public API**
 
   * [CIDR.fromString(cidr)](#cidrfromstringcidr)
   * [cidr.split()](#cidrsplit)
