@@ -1,6 +1,6 @@
 {
   "name": "cidr-split",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Split facility for CIDRs.",
   "scripts": {
     "assert-latest-node": "(node -v | grep -q ${npm_package_scriptvars_latest_node}) || (echo \"Expected node version ${npm_package_scriptvars_latest_node}, got $(node -v)\" && exit 1)",
