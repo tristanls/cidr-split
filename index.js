@@ -1,8 +1,12 @@
 "use strict";
 
 const BigNumber = require("bignumber.js");
-BigNumber.config(0);
-const shift = require("buffershift");
+BigNumber.config(
+    {
+        DECIMAL_PLACES: 0
+    }
+);
+const shift = require("./buffershift.js");
 const net = require("net");
 
 const CIDR = module.exports = function(ip, mask)
